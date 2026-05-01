@@ -131,7 +131,7 @@ fun MapScreen(
 @Composable
 private fun PermissionRationaleCard(
     modifier: Modifier = Modifier,
-    permissionState: androidx.accompanist.permissions.PermissionState
+    permissionState: com.google.accompanist.permissions.PermissionState
 ) {
     Card(
         modifier = modifier,
