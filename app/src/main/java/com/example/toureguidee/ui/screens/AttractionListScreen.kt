@@ -14,6 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.example.toureguidee.data.model.Attraction
 import com.example.toureguidee.ui.viewmodel.MainViewModel
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AttractionListScreen(
     viewModel: MainViewModel,
