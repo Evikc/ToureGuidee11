@@ -1,15 +1,48 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+```
+# Android/Kotlin specific
+*.class
+*.dex
+*.aar
+*.apk
+*.jar
+*.so
+*.dylib
+*.dll
+
+# Build system
+build/
+.gradle/
 local.properties
+.pro
+cxx/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Dependencies
+.libs/
+
+# Generated files
+gen/
+out/
+bin/
+target/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+```

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ToureGuidee</string>
+    <string name="map_api_key">YOUR_API_KEY_HERE</string>
 </resources>
